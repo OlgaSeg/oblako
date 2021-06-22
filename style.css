@@ -1,0 +1,14 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.nebo
+{
+    width: 599px;
+    height: 305px;
+    background-color: #0000ff;
+    
+}
