@@ -1,23 +1,34 @@
-*
-{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-.nebo
-{
+.nebo {
     width: 599px;
     height: 305px;
-    background-color: #0000ff;
-    
+    background-color: #000056;
+    overflow: hidden;
 }
-.ob1
-{
+
+.oblako1 {
+    float: left;
+}
+
+.ob1 {
     width: 100px;
     height: 100px;
     /* outline-offset: 1px; */
-    background-color:rgba(255, 255, 255, 0.5);
-    box-shadow: inset 2px 2px 2px 2px;
-    border-radius: 2px;
+    background-color: #a2b0e2;
+    box-shadow: inset 10px 0px 10px 1px;
+    border-radius: 50px;
+}
+
+.ob2 {
+    width: 150px;
+    height: 150px;
+    /* outline-offset: 1px; */
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: inset 10px 0px 10px 2px;
+    border-radius: 100px 100px 0px 0;
 }
