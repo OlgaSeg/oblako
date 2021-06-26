@@ -5,10 +5,10 @@
 }
 
 .nebo {
-    width: 599px;
+    width: 800px;
     height: 305px;
-    background-color: #000056;
-    overflow: hidden;
+        background: linear-gradient(0deg, rgb(123, 145, 243), blue);
+    overflow: hidden; 
 }
 
 .oblako1 {
@@ -16,19 +16,19 @@
 }
 
 .ob1 {
-    width: 100px;
-    height: 100px;
-    /* outline-offset: 1px; */
+    width: 50px;
+    height: 50px;
+    outline-offset: 1px; 
     background-color: #a2b0e2;
     box-shadow: inset 10px 0px 10px 1px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 .ob2 {
-    width: 150px;
-    height: 150px;
-    /* outline-offset: 1px; */
+    width: 100px;
+    height: 100px;
+    outline-offset: 1px; 
     background-color: rgba(255, 255, 255, 0.95);
     box-shadow: inset 10px 0px 10px 2px;
     border-radius: 100px 100px 0px 0;
-}
+} 

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\2sayt-master"
+		},
+		{
+			"path": "..\\250-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "250-master"
+	}
+}
