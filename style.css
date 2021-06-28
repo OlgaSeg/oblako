@@ -5,100 +5,138 @@
 }
 
 .nebo {
-    width: 1440px;
-    height: 805px;
-        background: linear-gradient(0deg, rgb(123, 145, 243), blue);
-    overflow: hidden; 
+    width: 900px;
+    height: 505px;
+    background: linear-gradient(0deg, rgb(173, 185, 238), rgb(4, 4, 114));
+    overflow: hidden;
 }
 
-.oblako1, .oblako2 {
+.oblako1,
+.oblako2 {
     float: left;
     width: 30%;
-    
+
 }
 
 
-    .ob1 {
-        width: 100px;
-        height: 100px;
-        outline-offset: 1px; 
-        background-color: rgba(255, 255, 255, 0.95);
-        box-shadow: inset 10px 0px 10px 2px;
-        border-radius: 80px 80px 0px 80px;
-        position: absolute;
-     top:170px;
-     left:60px;
-        
-    }
-.ob2 
-{
+.ob1 {
+    width: 100px;
+    height: 100px;
+    outline-offset: 1px;
+    background-color: rgba(255, 255, 255, 0.85);
+
+    border-radius: 80px 80px 0px 80px;
+    position: absolute;
+    top: 170px;
+    left: 50px;
+
+}
+
+.ob2 {
     width: 120px;
     height: 120px;
-    outline-offset: 1px; 
-    background-color: rgba(255, 255, 255, 0.95);
-    box-shadow: inset 10px 0px 10px 2px;
+    outline-offset: 1px;
+    background-color: rgba(255, 255, 255, 0.85);
+
     border-radius: 80px 80px 80px 0px;
     position: absolute;
-    top:150px;
-    left:280px;
-} 
+    top: 150px;
+    left: 300px;
+}
+
 .ob3 {
     width: 150px;
     height: 150px;
-    outline-offset: 1px; 
-    background-color: rgba(255, 255, 255, 0.95);
-    box-shadow: inset 2px 0px 10px 2px;
+    outline-offset: 1px;
+    background-color: rgba(255, 255, 255, 0.85);
+
     border-radius: 80px 80px 0px 0px;
     position: absolute;
-    top:120px;
-    left:150px;
-} 
+    top: 120px;
+    left: 150px;
+}
 
 
 .ob21 {
     width: 100px;
     height: 100px;
-    outline-offset: 1px; 
-    background-color: rgba(255, 255, 255, 0.95);
+    outline-offset: 1px;
+    background-color: rgba(255, 255, 255, 0.75);
     /* box-shadow: inset 10px 0px 10px 2px; */
     border-radius: 80px 80px 0px 80px;
     position: absolute;
- top:250px;
- left:190px;
-    
+    top: 250px;
+    left: 190px;
+
 }
-.ob22
-{
-width: 120px;
-height: 120px;
-outline-offset: 1px; 
-background-color: rgba(255, 255, 255, 0.95);
-/* box-shadow: inset 10px 0px 10px 2px; */
-border-radius: 80px 80px 80px 0px;
-position: absolute;
-top:230px;
-left:430px;
-} 
+
+.ob22 {
+    width: 120px;
+    height: 120px;
+    outline-offset: 1px;
+    background-color: rgba(255, 255, 255, 0.75);
+    /* box-shadow: inset 10px 0px 10px 2px; */
+    border-radius: 80px 80px 80px 0px;
+    position: absolute;
+    top: 230px;
+    left: 440px;
+}
+
 .ob23 {
-width: 150px;
-height: 150px;
-outline-offset: 1px; 
-background-color: rgba(255, 255, 255, 0.85);
-/* box-shadow: inset 2px 0px 10px 2px; */
-border-radius: 80px 80px 0px 0px;
-position: absolute;
-top:200px;
-left:290px;
-} 
-.mes
-{
+    width: 150px;
+    height: 150px;
+    outline-offset: 1px;
+    background-color: rgba(255, 255, 255, 0.75);
+    /* box-shadow: inset 2px 0px 10px 2px; */
+    border-radius: 80px 80px 0px 0px;
+    position: absolute;
+    top: 200px;
+    left: 290px;
+}
+
+.mesiac {
     width: 200px;
     height: 200px;
-    background-color:rgba(245, 230, 19, 0.781);
-    border-radius: 200px;
-    /* box-shadow: inset; */
+    margin: 20px 20px 20px 0;
+    border-radius: 60% 60% 60% 60%; 
+    box-shadow:  -10px -10px 0px 5px #FEC712; 
+
+    /* background-color:rgba(245, 230, 19, 0.781);
+    border-radius: 200px 200px 200px;
+    box-shadow: inset -50px 0 0 0 0; */
+    /* padding-left: 50px; */
+   
     position: absolute;
-    top:100PX;
-    left:250px;
-    
-}
+    top: 140PX;
+    left: 250px;
+    }
+    .zvezdi1, .zvezdi2, .zvezdi3
+    {
+        width: 5px;
+            height: 5px;
+        background-color: rgb(243, 239, 32);
+        border-radius: 9px;
+         box-shadow:  0px 0px 8px 8px rgba(243, 242, 235, 0.911);
+        position: absolute;
+        }
+        .zvezdi1
+        {
+            width: 5px;
+            height: 5px;
+            top: 150PX;
+        left: 100px; 
+        }
+        .zvezdi2
+        {
+            width: 3px;
+            height: 3px;
+            top: 280PX;
+        left: 180px;  
+        }
+        .zvezdi3
+        {
+            width: 3px;
+            height: 3px;
+            top: 180PX;
+        left: 500px;  
+        }
