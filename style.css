@@ -5,30 +5,100 @@
 }
 
 .nebo {
-    width: 800px;
-    height: 305px;
+    width: 1440px;
+    height: 805px;
         background: linear-gradient(0deg, rgb(123, 145, 243), blue);
     overflow: hidden; 
 }
 
-.oblako1 {
+.oblako1, .oblako2 {
     float: left;
+    width: 30%;
+    
 }
 
-.ob1 {
-    width: 50px;
-    height: 50px;
+
+    .ob1 {
+        width: 100px;
+        height: 100px;
+        outline-offset: 1px; 
+        background-color: rgba(255, 255, 255, 0.95);
+        box-shadow: inset 10px 0px 10px 2px;
+        border-radius: 80px 80px 0px 80px;
+        position: absolute;
+     top:170px;
+     left:60px;
+        
+    }
+.ob2 
+{
+    width: 120px;
+    height: 120px;
     outline-offset: 1px; 
-    background-color: #a2b0e2;
-    box-shadow: inset 10px 0px 10px 1px;
-    border-radius: 30px;
-}
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: inset 10px 0px 10px 2px;
+    border-radius: 80px 80px 80px 0px;
+    position: absolute;
+    top:150px;
+    left:280px;
+} 
+.ob3 {
+    width: 150px;
+    height: 150px;
+    outline-offset: 1px; 
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: inset 2px 0px 10px 2px;
+    border-radius: 80px 80px 0px 0px;
+    position: absolute;
+    top:120px;
+    left:150px;
+} 
 
-.ob2 {
+
+.ob21 {
     width: 100px;
     height: 100px;
     outline-offset: 1px; 
     background-color: rgba(255, 255, 255, 0.95);
-    box-shadow: inset 10px 0px 10px 2px;
-    border-radius: 100px 100px 0px 0;
+    /* box-shadow: inset 10px 0px 10px 2px; */
+    border-radius: 80px 80px 0px 80px;
+    position: absolute;
+ top:250px;
+ left:190px;
+    
+}
+.ob22
+{
+width: 120px;
+height: 120px;
+outline-offset: 1px; 
+background-color: rgba(255, 255, 255, 0.95);
+/* box-shadow: inset 10px 0px 10px 2px; */
+border-radius: 80px 80px 80px 0px;
+position: absolute;
+top:230px;
+left:430px;
 } 
+.ob23 {
+width: 150px;
+height: 150px;
+outline-offset: 1px; 
+background-color: rgba(255, 255, 255, 0.85);
+/* box-shadow: inset 2px 0px 10px 2px; */
+border-radius: 80px 80px 0px 0px;
+position: absolute;
+top:200px;
+left:290px;
+} 
+.mes
+{
+    width: 200px;
+    height: 200px;
+    background-color:rgba(245, 230, 19, 0.781);
+    border-radius: 200px;
+    /* box-shadow: inset; */
+    position: absolute;
+    top:100PX;
+    left:250px;
+    
+}
